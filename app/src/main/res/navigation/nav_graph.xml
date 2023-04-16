@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/onBordFragment">
+
+    <fragment
+        android:id="@+id/calculateFragment"
+        android:name="com.example.love_calculator_hw_5_2.fragment.CalculatorFragment"
+        android:label="fragment_calculate"
+        tools:layout="@layout/fragment_calculator" />
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.example.love_calculator_hw_5_2.fragment.ResultFragment"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result" />
+    <fragment
+        android:id="@+id/onBordFragment"
+        android:name="com.example.love_calculator_hw_5_2.onboard.OnBordFragment"
+        android:label="fragment_on_bord"
+        tools:layout="@layout/fragment_on_bord" />
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.love_calculator_hw_5_2.fragment.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" />
+
+</navigation>
